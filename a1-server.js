@@ -32,7 +32,7 @@ function handleRequest(request, response){
     console.re.log("The actual answer is " + (augend + addend) );
     console.re.log("The augend value is " + augend);
     console.re.log("The addend value is " + addend);
-    console.re.log("The sum value is " + sum);
+ 
     // ASSIGNMENT
     // 1. Add a debug message which ouputs the sum of the simple equation above. Values are available in the augend, addend 
     // and sum (global) variables
@@ -45,7 +45,7 @@ var server = http.createServer(handleRequest);
 // Lets start our server
 server.listen(server_port, server_ip_address, function(){
     // This is the callback function which triggered when server is successfully listening (active).
-    console.re.log("Your server has started .... fairplay to ya");
+    console.re.log("Your server has started.");
     console.re.log("My server ip address is: " + server_ip_address + ":" + server_port);
     // ASSIGNMENT
     // 3. Add a debug message which ouputs a message indicating the server is started (listening for user requests).
